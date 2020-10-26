@@ -81,8 +81,9 @@ Partial Class Form1
         '
         Me.TextBox1.Location = New System.Drawing.Point(84, 64)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(94, 20)
         Me.TextBox1.TabIndex = 5
+        Me.TextBox1.Text = "HanyaJasa.Com"
         '
         'Form1
         '

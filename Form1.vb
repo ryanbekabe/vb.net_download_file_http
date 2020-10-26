@@ -10,6 +10,8 @@ Public Class Form1
     Private Sub btnDownload_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDownload.Click
         Me.Cursor = Cursors.WaitCursor
         Application.DoEvents()
+        ' http://www.vb-helper.com/howto_net_download_file.html
+        ' http://www.vb-helper.com/HowTo/howto_net_download_file.zip
 
         Try
             ' Make a WebClient.
